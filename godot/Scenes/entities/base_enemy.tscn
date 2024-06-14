@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://doyb38yx7w3s"]
+
+[node name="BaseEnemy" type="BaseEnemy"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="DefaultSound" type="AudioStreamPlayer2D" parent="."]
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 100.0
+target_desired_distance = 100.0
