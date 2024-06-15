@@ -15,8 +15,6 @@ struct BaseEnemy {
 #[godot_api]
 impl ICharacterBody2D for BaseEnemy {
     fn init(base: Base<CharacterBody2D>) -> Self {
-        godot_print!("Hello, world!"); // Prints to the Godot console
-
         Self {
             speed: 150.0,
             nav_agent: OnReady::manual(),
